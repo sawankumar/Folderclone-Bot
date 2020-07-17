@@ -17,7 +17,13 @@
 3. Edit the values in `config.py`.
 5. Run `py folderclone.py`.
 
-# Deploy on Heroku
+## Deploy on Heroku
+1. Clone this repository.
+2. Inside this repository make a folder and name it `accounts`.
+3. Create your service accounts and add it in `accounts` folder.
+4. Edit the values in `config.py`.
+5. Push the files to your github repository.
+6. Use `Deploy To Heroku Button`
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sawankumar/FolderClone-Bot/tree/master)
 
