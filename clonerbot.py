@@ -155,7 +155,7 @@ def status(update: Update, context: CallbackContext):
     update.message.reply_text(message, parse_mode=ParseMode.MARKDOWN)
 
 
-dp.add_handler(CommandHandler('clone', clone))
+dp.add_handler(CommandHandler('folderclone', clone))
 dp.add_handler(CommandHandler('status', status))
 print("Bot Started.")
 updater.start_polling()
