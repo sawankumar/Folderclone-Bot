@@ -23,7 +23,7 @@
 
 
 ## Usage in telegram bot
-`/clone <source_id> <dest_id> <thread> <view> <skip>`
+`/folderclone <source_id> <dest_id> <thread> <view> <skip>`
 
 `source_id` - Drive ID of the folder you want to copy from. (Required)
 
@@ -42,7 +42,7 @@ Folder IDs are printed along side with the normal progress so you can use it for
 
 Delete all the files within the folder of which the process stopped at first before cloning again. (So that you won't get duplicates)
 
-Example : `/clone 1234567890abcdefg 1234567890abcdefg 10 0 1234567890abcdefg`
+Example : `/folderclone 1234567890abcdefg 1234567890abcdefg 10 0 1234567890abcdefg`
 
 (Yes, you need to specify the rest parameter if you want to use the skip parameter.)
 
@@ -58,3 +58,7 @@ Example : `/clone 1234567890abcdefg 1234567890abcdefg 10 0 1234567890abcdefg`
 - 50 if you want to risk your app hanging.
   
 - Anything above 50 will more likely crash the app.
+
+## Thanks to :heart:
+
+- [Loli Killer](https://github.com/Loli-Killer/TgFolderClone)
