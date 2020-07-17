@@ -1,12 +1,8 @@
 {
   "name": "FolderClone",
   "description": "FolderClone - A project that allows you copy large folders to Shared Drives.",
-  "keywords": [
-    "telegram",
-    "folderclone",
-  ],
+  "repository": "https://github.com/sawankumar/FolderClone-Bot",
+  "keywords": ["folderclone"],
   "success_url": "https://telegram.dog/FolderClone_Bot",
-  "website": "https://github.com/sawankumar/FolderClone-Bot",
-  "repository": "https://github.com/sawankumar/FolderClone-Bot",  
-  "addons": [],
+  "website": "https://github.com/sawankumar/FolderClone-Bot",  
 }
