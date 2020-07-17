@@ -5,7 +5,8 @@
     "telegram",
     "folderclone",
   ],
-  "repository": "https://github.com/sawankumar/FolderClone-Bot",
   "success_url": "https://telegram.dog/FolderClone_Bot",
-  "website": "https://github.com/sawankumar/FolderClone-Bot"
+  "website": "https://github.com/sawankumar/FolderClone-Bot",
+  "repository": "https://github.com/sawankumar/FolderClone-Bot",  
+  "addons": [],
 }
