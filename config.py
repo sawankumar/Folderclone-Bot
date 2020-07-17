@@ -1,0 +1,4 @@
+BOT_TOKEN = "1251205152:AAHs3P6ylAAXI1hAIa6Ysvygr5hTeET6aFo" #TG Bot Token
+ALLOWED_CHATS = [ #Allowed chat IDs
+    "-1001399260770"
+]
