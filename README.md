@@ -29,15 +29,13 @@
 
 
 ## Usage in telegram bot
-`/folderclone <source_id> <dest_id> <thread> <view>`
+`/folderclone <source_id> <dest_id> <thread>`
 
 `source_id` - Drive ID of the folder you want to copy from. (Required)
 
 `dest_id` - Drive ID of the folder you want to copy into. (Required)
 
 `thread` - Amount of threads to use. The higher the more resource it requires. Default - 25
-
-`view` - 0 - Tree View. 1 - Basic View. Default - Tree View.
 
 
 ### Note
