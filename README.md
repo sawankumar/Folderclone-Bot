@@ -39,7 +39,7 @@
 
 
 ### Note
-`folderclone.py` - Modified version of `multifolderclone.py` from [Multifolderclone](https://github.com/Spazzlo/folderclone).
+`folderclone.py` - Modified version of `multifolderclone.py` from [Folderclone](https://github.com/Spazzlo/folderclone).
 
 ## Concerning thread number
 - Recommended thread number for heroku is 25.
