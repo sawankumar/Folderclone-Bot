@@ -1,7 +1,7 @@
 <h1 align="center">FolderClone 🔥</h1> 
 
 <p align="center">
-<a href="https://sawankumar.gitlab.io/"><img alt="author" src="https://img.shields.io/badge/author-Sawan%20Kumar-red"/></a>
+<a href="https://github.com/sawankumar"><img alt="author" src="https://img.shields.io/badge/author-Sawan%20Kumar-red"/></a>
 <a href="https://www.python.org/"><img alt="language" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"/></a>
 <a href="https://github.com/ellerbrock/open-source-badges/"><img alt="author" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"/></a>
 </p>
@@ -53,8 +53,9 @@
 - Anything above 50 will more likely crash the app.
 
 ### Note
-`folderclone.py` - Modified version of `multifolderclone.py` from [Folderclone](https://github.com/Spazzlo/folderclone).
+- `folderclone.py` - Modified version of `multifolderclone.py` from [Folderclone](https://github.com/Spazzlo/folderclone).
 
+- Commits till : Jul 26, 2020 (7e13a4f)
 
 ## Thanks to :heart:
 
