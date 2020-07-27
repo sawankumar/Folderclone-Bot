@@ -41,7 +41,7 @@
 ## Customize 
 - Set thread number by changing values at `line 43` in `clonerbot.py`.
 
-- Customize clone command by changing commands at `line 171` in `clonerbot.py`.
+- Customize clone command by changing command at `line 171` in `clonerbot.py`.
 
 ## Concerning thread number
 - Recommended thread number for heroku is 25.
