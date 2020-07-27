@@ -38,8 +38,10 @@
 `thread` - Amount of threads to use. The higher the more resource it requires. Default - 25
 
 
-### Note
-`folderclone.py` - Modified version of `multifolderclone.py` from [Folderclone](https://github.com/Spazzlo/folderclone).
+## Customize 
+- Set thread number by changing values at `line 43` in `clonerbot.py`.
+
+- Customize clone command by changing commands at `line 171` in `clonerbot.py`.
 
 ## Concerning thread number
 - Recommended thread number for heroku is 25.
@@ -49,6 +51,10 @@
 - 50 if you want to risk your app hanging.
   
 - Anything above 50 will more likely crash the app.
+
+### Note
+`folderclone.py` - Modified version of `multifolderclone.py` from [Folderclone](https://github.com/Spazzlo/folderclone).
+
 
 ## Thanks to :heart:
 
