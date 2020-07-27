@@ -55,8 +55,5 @@
 ### Note
 - `folderclone.py` - Modified version of `multifolderclone.py` from [Folderclone](https://github.com/Spazzlo/folderclone).
 
-- Commits till : `Jul 26, 2020` `(7e13a4f)`
+- Commits till `Jul 26, 2020` `(7e13a4f)` from [TgFolderClone](https://github.com/Loli-Killer/TgFolderClone)
 
-## Thanks to :heart:
-
-- [Loli Killer](https://github.com/Loli-Killer/TgFolderClone)
