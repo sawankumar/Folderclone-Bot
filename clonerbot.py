@@ -40,7 +40,7 @@ def clone(update: Update, context: CallbackContext):
     try:
         thread_amount = args[2]
     except IndexError:
-        thread_amount = 10
+        thread_amount = 25
 
     start_time = monotonic()
     counter = 0
