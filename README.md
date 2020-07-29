@@ -37,6 +37,12 @@
 
 `thread` - Amount of threads to use. The higher the more resource it requires. Default - 25
 
+## BotFather Commands
+
+- folderclone - Clones Folder From SRC to DST
+- status - Shows Current Ongoing Progress
+- uptime - Bot Uptime
+- stop - Stops Ongoing Progress
 
 ## Customize 
 - Set thread number by changing values at `line 43` in `clonerbot.py`.

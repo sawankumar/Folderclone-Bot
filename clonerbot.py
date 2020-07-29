@@ -218,7 +218,7 @@ def uptime(update: Update, context: CallbackContext):
     context.bot.sendMessage(update.effective_chat.id, stats)
 
 
-dp.add_handler(CommandHandler('clone', clone))
+dp.add_handler(CommandHandler('folderclone', clone))
 dp.add_handler(CommandHandler('uptime', uptime))
 dp.add_handler(CommandHandler('status', status))
 dp.add_handler(CommandHandler('stop', stop))
