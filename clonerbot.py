@@ -185,9 +185,9 @@ def status(update: Update, context: CallbackContext):
         thread_used = each_entry['threads']
 
         if each_entry_num == 0:
-            message += f"Current Job - From `{source}` to `{dest}` started by `{user}`\nTotal thread used : `{thread_used}`\n\n"
+            message += f"Current Job - From `{source}` to `{dest}` Started by `{user}`\nTotal thread used : `{thread_used}`\n\n"
         else:
-            message += f"Queue {each_entry_num} - From `{source}` to `{dest}` started by `{user}`\nTotal thread to use : `{thread_used}`\n\n"
+            message += f"Queue {each_entry_num} - From `{source}` to `{dest}` Started by `{user}`\nTotal thread to use : `{thread_used}`\n\n"
 
     update.message.reply_text(message, parse_mode=ParseMode.MARKDOWN)
 
