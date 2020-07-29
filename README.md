@@ -55,5 +55,5 @@
 ### Note
 - `folderclone.py` - Modified version of `multifolderclone.py` from [Folderclone](https://github.com/Spazzlo/folderclone).
 
-- Merged commits till `Jul 27, 2020` `(fefae9c)` from [TgFolderClone](https://github.com/Loli-Killer/TgFolderClone)
-
+- Merged commits till `Jul 26, 2020` `(7e13a4f)` from [TgFolderClone](https://github.com/Loli-Killer/TgFolderClone)
+- This commit Jul 27, 2020` `(fefae9c) crashes the bot.
