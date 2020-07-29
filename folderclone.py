@@ -3,6 +3,7 @@ import threading
 import json
 import socket
 import random
+import os
 
 from argparse import ArgumentParser
 from glob import glob
@@ -268,13 +269,17 @@ class MultiFolderClone():
         self.files_to_copy = [(i['id'], dest) for i in files_to_copy]
 
         self._log('Copying files')
+
+        fullname = display_line + folder_name
+        if 'DYNO' not in os.environ:
+            fullname = fullname.encode(self.encoding, errors='replace').decode(self.encoding)
+
         if files_to_copy:
             while self.files_to_copy:
                 files_to_copy = self.files_to_copy
                 self.files_to_copy = []
                 running_threads = []
 
-                fullname = display_line + folder_name
                 pbar = CounterProgress(f"{fullname}", max=len(files_to_copy), encoding=self.encoding)
                 pbar.update()
 
@@ -314,9 +319,9 @@ class MultiFolderClone():
             # copy completed
             #print(display_line + folder_name + ' | Synced')
         elif files_source and len(files_source) <= len(files_dest):
-            print(display_line + folder_name + ' | Up to date')
+            print(fullname + ' | Up to date')
         else:
-            print(display_line + folder_name)
+            print(fullname)
 
         for i in folders_dest:
             folders_copied[i['name']] = i['id']
