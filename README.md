@@ -59,9 +59,3 @@
 - 50 if you want to risk your app hanging.
   
 - Anything above 50 will more likely crash the app.
-
-### Note
-- `folderclone.py` - Modified version of `multifolderclone.py` from [Folderclone](https://github.com/Spazzlo/folderclone).
-
-- Commits  Merged Till `Aug 10, 2020` [14ac2f3](https://github.com/Loli-Killer/TgFolderClone/commits/master) from [TgFolderClone](https://github.com/Loli-Killer/TgFolderClone)
-
